@@ -1,21 +1,22 @@
 {
-  "name": "Injecta",
+  "name": "Sample extension",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Injecting stuff",
-  "homepage_url": "http://danharper.me",
+  "description": "sample stuff",
+  "author": "Matt Martin",
   "background": {
-    "scripts": [
-      "background.js"
-    ],
+    "scripts": ["background/background.js"],
     "persistent": true
   },
   "browser_action": {
-    "default_title": "Inject!"
+    "default_title": "Sample Extension",
+    "default_popup": "popup/popup.html"
   },
   "permissions": [
     "https://*/*",
     "http://*/*",
-    "tabs"
+    "tabs",
+    "storage",
+    "webNavigation"
   ]
 }
