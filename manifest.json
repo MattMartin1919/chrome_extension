@@ -9,6 +9,7 @@
     "persistent": true
   },
   "browser_action": {
+    "default_icon": "sample-icon.png",
     "default_title": "Sample Extension",
     "default_popup": "popup/popup.html"
   },
