@@ -8,6 +8,9 @@
     "scripts": ["background/background.js"],
     "persistent": true
   },
+  "icons": {
+    "48": "sample-icon.png"
+  },
   "browser_action": {
     "default_icon": "sample-icon.png",
     "default_title": "Sample Extension",
